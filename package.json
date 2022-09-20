@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "main": "10rows-server.js",
-  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,5 +15,6 @@
   "bugs": {
     "url": "https://github.com/jeonhyoungmin/220919-node-js-4-10row-server/issues"
   },
-  "homepage": "https://github.com/jeonhyoungmin/220919-node-js-4-10row-server#readme"
+  "homepage": "https://github.com/jeonhyoungmin/220919-node-js-4-10row-server#readme",
+  "type": "module"
 }

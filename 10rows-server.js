@@ -1,4 +1,4 @@
-import http, { request } from 'http';
+import http from 'http';
 import fs from 'fs';
 // root directory 에 
 // DI 셋팅, command : npm init
@@ -18,8 +18,7 @@ http.createServer(function(request, response){
   // 읽어낸 파일을 data로 "write(작성)" 한다.
   response.end();
   // 작성이 완료되면 말그대로 end, 종료한다.
-})
-.listen(9876, function(){
+}).listen(9876, function(){
   // 포트(컴퓨터가 인터넷에 연결하는 세부적인 연결통로)는 임의로 9876으로 정하였다.
   console.log('서버가 작동되고 있습니다!');
 })
